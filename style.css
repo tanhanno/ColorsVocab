@@ -1,0 +1,112 @@
+body {
+  max-width: 490px;
+  margin: auto;
+  padding: 25px;
+  background-color: rgb(184, 159, 159);
+}
+
+h2 {
+  margin-bottom: 100px;
+}
+
+.colors {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 0.5px black;
+  background-color: lightskyblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.color-box {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  filter: drop-shadow(2px 3px 4px black);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.yellow {
+  color: yellow;
+}
+.yellow .color-box {
+  background-color: yellow;
+}
+
+.orange {
+  color: orange;
+}
+.orange .color-box {
+  background-color: orange;
+}
+
+.red {
+  color: red;
+}
+.red .color-box {
+  background-color: red;
+}
+
+.purple {
+  color: purple;
+}
+.purple .color-box {
+  background-color: purple;
+}
+
+.blue {
+  color: blue;
+}
+.blue .color-box {
+  background-color: blue;
+}
+
+.green {
+  color: green;
+}
+.green .color-box {
+  background-color: green;
+}
+
+.turquoise {
+  color: turquoise;
+}
+.turquoise .color-box {
+  background-color: turquoise;
+}
+
+.pink {
+  color: pink;
+}
+.pink .color-box {
+  background-color: pink;
+}
+
+.gray {
+  color: gray;
+}
+.gray .color-box {
+  background-color: gray;
+}
+
+.brown {
+  color: brown;
+}
+.brown .color-box {
+  background-color: brown;
+}
+
+.white {
+  color: white;
+}
+.white .color-box {
+  background-color: white;
+}
